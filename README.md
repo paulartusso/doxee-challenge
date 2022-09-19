@@ -27,3 +27,6 @@ npm run dev
 ```sh
 npm run build
 ```
+*** IMPORTANTE ***
+Usare node 16 o +
+Use node 16 or +
