@@ -233,6 +233,7 @@ dal Creditore, tutti gli addebiti diretti SEPA inviati dallo stesso Creditore."
       font-size: 12px;
       line-height: 14px;
       background: #ffffff;
+      transition: all 0.2s linear;
       //z-index: 1;
       top: 35px;
       left: 15px;
