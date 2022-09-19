@@ -44,6 +44,7 @@ export default {
       <div class="msg-img-container">
         <span class="msg-container">
           {{ msg }}
+          <slot></slot>
         </span>
         <img v-if="img == show" :src="Success" style="width: 45px" />
       </div>

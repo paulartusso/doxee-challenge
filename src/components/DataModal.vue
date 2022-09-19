@@ -187,10 +187,12 @@ dal Creditore, tutti gli addebiti diretti SEPA inviati dallo stesso Creditore."
     v-if="searchModal"
   />
   <CommonModal
-    msg="Abbiamo preso in carica la richiesta. Riceverai a breve una e-mail per firmarla con codice OTP. "
+    msg="Abbiamo preso in carica la richiesta. "
     @close-modal="closeModal"
     v-if="modalIsVisible"
-  />
+  >
+    <strong>Riceverai a breve una e-mail per firmarla con codice OTP.</strong>
+  </CommonModal>
 </template>
 
 <style scoped lang="scss">
