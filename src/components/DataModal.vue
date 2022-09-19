@@ -84,13 +84,13 @@ export default {
   },
   computed: {
     input1Complete() {
-      return this.ragioneSociale.length > 0 ? "focused-input" : "";
+      return this.ragioneSociale?.length > 0 ? "focused-input" : "";
     },
     input2Complete() {
-      return this.partita.length > 0 ? "focused-input" : "";
+      return this.partita?.length > 0 ? "focused-input" : "";
     },
     input3Complete() {
-      return this.codice.length > 0 ? "focused-input" : "";
+      return this.codice?.length > 0 ? "focused-input" : "";
     },
     getCheck() {
       return this.checked ? "showing-check" : "hidden-check";
